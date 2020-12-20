@@ -55,10 +55,10 @@ String sensorName = "ReedSensor";
 String sensorLocation = "Room_1";
 
   ```
-### Caution! Your api_key in main_window.ino has to match the api_key in the PHP post script named "post-esp-data_window.php", otherwise the request will fail
+### Caution! Your api_key in main_window.ino has to match the api_key in the PHP post script named "post-esp-data_window.php", otherwise the request will fail ###
 
 
-### Step 3: Upload PHP script to your destination server (i.e. Raspberry Pi)
+### Step 3: ### Upload PHP script to your destination server (i.e. Raspberry Pi)
 
 ### Step 4: Create MySQL database structure
 
