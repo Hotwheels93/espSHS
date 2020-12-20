@@ -55,4 +55,24 @@ String sensorName = "ReedSensor";
 String sensorLocation = "Room_1";
 
   ```
+### Caution! Your api_key in main_window.ino has to match the api_key in the PHP post script named "post-esp-data_window.php", otherwise the request will fail
+
+
+### Step 3: Upload PHP script to your destination server (i.e. Raspberry Pi)
+
+### Step 4: Create MySQL database structure
+
+### Step 5: Flash ESP8266 using the main_window.ino sketch
+
+### Step 6: Done! You can now check if the data in your db updates successfully. 
+
+
+## Troubleshooting:
+
+### Database not updated
+
+1. Check the Wifi credentials supplied in the main_window.ino sketch
+2. Check the URL to your PHP script in the main_window.ino sketch
+3. Check that api_key matches in main_window.ino and post-esp-data_window.php
+4. Check wiring in pinout of reed sensor
 
