@@ -30,10 +30,29 @@ Date: 12/2020
 
 ## Installation
 
-Clone Repo
-* 
+### Step 1: Clone Repo
+ 
   ```sh
   git clone https://github.com/Hotwheels93/espSHS.git
   ```
 
+### Step 2: Edit main_window.ino
+
+Change Wifi credentials
+  ```sh
+  // Wifi credentials
+const char* ssid     = "YourSSIDname";
+const char* password = "YourWifiPassword!";
+  ```
+
+Change URL, api_key, sensorName and sensorLocation:
+  ```sh
+
+const char* serverName = "http://YOURHOSTADRESS.XYZ/post-esp-data_window.php";
+String apiKeyValue = "YOURAPIKEY123456";
+
+String sensorName = "ReedSensor";
+String sensorLocation = "Room_1";
+
+  ```
 
