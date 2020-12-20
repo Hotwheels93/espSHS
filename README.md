@@ -58,7 +58,7 @@ String sensorName = "ReedSensor";
 String sensorLocation = "Room_1";
 
   ```
-### Caution!### 
+### Caution!
 Your api_key in main_window.ino has to match the api_key in the PHP post script named "post-esp-data_window.php", otherwise the request will fail
 
 
@@ -71,7 +71,7 @@ Your api_key in main_window.ino has to match the api_key in the PHP post script 
 **Step 6:** Done! You can now check if the data in your db updates successfully. 
 
 
-### Troubleshooting:###
+### Troubleshooting:
 
 **Database not updated**
 
