@@ -28,6 +28,9 @@ Date: 12/2020
 3. WiFi
 
 
+## Pinout:
+
+
 ## Installation
 
 ### Step 1: Clone Repo
@@ -68,9 +71,9 @@ Your api_key in main_window.ino has to match the api_key in the PHP post script 
 **Step 6:** Done! You can now check if the data in your db updates successfully. 
 
 
-## Troubleshooting:
+### Troubleshooting:###
 
-### Database not updated
+**Database not updated**
 
 1. Check the Wifi credentials supplied in the main_window.ino sketch
 2. Check the URL to your PHP script in the main_window.ino sketch
