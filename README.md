@@ -30,7 +30,7 @@ Date: 12/2020
 
 ## Installation
 
-Clone repo
+*Clone repo
   ```git clone https://github.com/Hotwheels93/espSHS.git
   ```
   
