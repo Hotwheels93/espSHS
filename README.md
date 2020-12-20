@@ -30,11 +30,8 @@ Date: 12/2020
 
 ## Installation
 
-* Clone repo
-  ```git clone https://github.com/Hotwheels93/espSHS.git
-  ```
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Clone Repo
+* 
   ```sh
   git clone https://github.com/Hotwheels93/espSHS.git
   ```
