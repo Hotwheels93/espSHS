@@ -1,8 +1,6 @@
 # espSHS
 
 <h3 align="center">ESP8266 based Smart Home System</h3>
-
-Developer: Martin Hocquel
 Date: 12/2020
 
 
